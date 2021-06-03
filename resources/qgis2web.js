@@ -40,7 +40,6 @@ var map = new ol.Map({
 
     map.addControl(searchLayer);
 map.getView().fit([-20026376.390000, -20048966.100000, 20026376.390000, 20048966.100000], map.getSize());
-map.getView().setCenter(ol.proj.fromLonLat([2.35, 48.85]))
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
